@@ -1,1 +1,1 @@
-test.mjs contain basic llm connection upon which further functionlaities can be implemented.
+test.mjs contain basic llm connection on top of which further functionlaities can be implemented.
