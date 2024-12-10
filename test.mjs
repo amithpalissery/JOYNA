@@ -10,7 +10,7 @@ const rl = readline.createInterface({
 });
 
 // Replace 'YOUR_API_KEY' with your actual API key
-const genAI = new GoogleGenerativeAI("AIzaSyCkd89x9TxFsA69f05Qoq6f8LlDGNl4brs");
+const genAI = new GoogleGenerativeAI("api_key");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 async function chatWithModel(userInput, childAge) {
